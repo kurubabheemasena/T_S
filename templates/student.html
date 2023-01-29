@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>student details</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="n">student name</label>
+            <input type="text" name="sn" id="n"><br>
+            <label for="i">id</label>
+            <input type="id" name="id" id="i"><br>
+            <label for="c">course</label>
+            <input type="text" name="cur" id="c"><br>
+            <label for="m">mno</label>
+            <input type="mno" name="mn" id="m"><br>
+
+            <input type="submit">
+
+        </form>
+    </center>
+</body>
+</html>

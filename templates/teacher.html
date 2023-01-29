@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>teacher details</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="n">name</label>
+            <input type="text" name="ne" id="n"><br>
+            <label for="m">mail</label>
+            <input type="mail" name="ma" id="m"><br>
+            <label for="p">password</label>
+            <input type="password" name="pw" id="p"><br>
+            <label for="cp">conform password</label>
+            <input type="password" name="cpw" id="cp"><br>
+            <label for="m">mno</label>
+            <input type="mno" name="mn" id="m"><br>
+
+            <input type="submit">
+
+        </form>
+    </center>
+</body>
+</html
